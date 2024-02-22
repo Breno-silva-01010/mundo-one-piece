@@ -1,0 +1,110 @@
+@media only screen and (max-width: 600px) {
+
+    .baner{
+        overflow: hidden; 
+        justify-content: center;
+    }
+    .baner img{
+        height: 24vw;
+        width: auto;
+        margin-left: 32%;
+    }
+    .baner p{
+        font-size: 3.5vw;
+        margin-left: 26%;
+        padding-right: 1%;
+
+    }
+
+    .card{
+        margin: 2.5% 2.8%;
+        box-shadow: 2px 3.5px 9px black, 2px 2px 7px rgb(30, 0, 0);
+        display: flex;
+        height: 38vw;
+        width: 100%;
+    }
+    .card img{
+        width: auto;
+        height: 100%;
+    }
+    .card p{
+        font-size: 3.8vw;
+    }
+    .card h2{
+        font-size: 5.5vw;
+    }
+
+
+    .arco{
+        background-color: black;
+        color: rgb(243, 243, 243);
+        background-image: none;
+        justify-content: center;
+        position: relative;
+        border: 2px solid red;
+        padding: 0;
+    }
+    
+    .eggheadimg{
+        width: 100%;
+        opacity: 40%;
+    }
+    .egghead{
+        width: 90%;
+        position: absolute;
+        text-shadow: 1px 1px 2px rgb(136, 136, 136);
+    }
+    .egghead p{
+        font-size: 4.5vw;
+    }
+    .egghead h2{
+        font-size: 6vw;
+    }
+    .egghead h4{
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (min-width:601px) and ( max-width: 800px) {
+
+    .card{
+        margin: 1.5% 1%;
+        box-shadow: 2px 3.5px 9px black, 2px 2px 7px rgb(30, 0, 0);
+        display: flex;
+        height: 22vw;
+        width: 48%;
+        
+    }
+    .card img{
+        width: auto;
+        height: 100%;
+    }
+    .card p{
+        font-size: 1.9vw;
+        text-align: justify;
+        margin: 1px;
+        text-shadow:  0.5px 0.5px white, 0.5px 0.5px 1px black;
+        overflow: auto;
+    }
+    .card h2{
+        font-size: 2.6vw;
+    }
+    
+
+    .arco{
+        border: 2px red solid;
+        background-color: rgb(255, 255, 255);
+        background-image: linear-gradient(to left bottom, rgba(255, 0, 0, 0.475) 1%, white 39%, rgba(255, 0, 0, 0.584)  60%);
+    }
+    .egghead p{
+        font-size: 2.5vw;
+    }
+    .egghead h2{
+        font-size: 4vw;
+        text-shadow: 1px 1px 2px white;
+    }
+    .egghead h4{
+        font-size: 2vw;
+    }
+    
+}

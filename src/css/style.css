@@ -1,0 +1,91 @@
+body{
+    background-color:  rgb(0, 81, 255);
+}
+
+img{
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.1vw;
+}
+
+h4{
+    text-align: end;
+    font-size: 1.4vw;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.baner{
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.baner p{
+    position: absolute;
+    color: rgb(231, 231, 231);
+    font-size: 3vw;
+    width: 77%;
+    text-shadow: 0.5px 2px 5px red, 2px 0.5px 5px yellow, 0.7px 0.7px 1px white;
+    padding-left: 1%;
+}
+
+.personagens{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 0;
+}
+
+.card{
+    width: 16%;
+    margin: 2px 2% 10px;
+    box-shadow: 2px 3.5px 12px black, 2px 2px 10px rgb(30, 0, 0);
+    text-align: center;
+    background-color: white;
+}
+
+.card img{
+    border: 0.5px solid black;
+}
+
+.card p{
+    font-size: 1.5vw;
+    padding: 1px 1.5px 0;
+}
+
+.arco{
+    display: flex;
+    margin: 0 3%;
+    padding: 1% 1% 0.4% 0.5%;
+    background-image: linear-gradient(to left bottom, white 25%, red  75%);
+}
+
+.eggheadimg{
+    width: 50%;
+}
+
+.egghead{
+    width: 48%;
+    margin: 1%;
+}
+
+.egghead p{
+    font-size: 2.199vw;
+    text-align: justify;
+}
+
+.egghead h2{
+    font-size: 2.6vw;
+}
+
+.copy{
+    font-size: 0.999vw;
+    color: white;
+
+}
